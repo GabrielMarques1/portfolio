@@ -21,7 +21,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-2 group" onClick={() => setOpen(false)}>
             <Terminal size={16} className="text-[var(--accent-secondary)] group-hover:animate-pulse" />
             <span className="font-mono text-sm font-semibold text-[var(--text-primary)]">
-              gbmel<span className="text-[var(--accent-secondary)]">@sec</span>
+              gabriel<span className="text-[var(--accent-secondary)]">@sec</span>
               <span className="animate-blink">█</span>
             </span>
           </Link>
