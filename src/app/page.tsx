@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ExternalLink, Shield, Code2, Terminal, ChevronRight, FileDown } from "lucide-react";
-import { GithubSvg, LinkedinSvg, XSvg, HtbSvg } from "@/components/SocialIcons";
+import { GithubSvg, LinkedinSvg, InstagramSvg, HtbSvg } from "@/components/SocialIcons";
 import { SOCIAL_LINKS } from "@/lib/utils";
 
 const skills = [
@@ -91,7 +91,7 @@ export default function HomePage() {
               { href: SOCIAL_LINKS.github, icon: <GithubSvg size={18} />, label: "GitHub" },
               { href: SOCIAL_LINKS.hackthebox, icon: <HtbSvg size={18} />, label: "HackTheBox" },
               { href: SOCIAL_LINKS.linkedin, icon: <LinkedinSvg size={18} />, label: "LinkedIn" },
-              { href: SOCIAL_LINKS.twitter, icon: <XSvg size={18} />, label: "Twitter" },
+              { href: SOCIAL_LINKS.instagram, icon: <InstagramSvg size={18} />, label: "Instagram" },
             ].map((s) => (
               <Link
                 key={s.label}

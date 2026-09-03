@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Mail, MessageSquare } from "lucide-react";
-import { GithubSvg, LinkedinSvg, XSvg, HtbSvg } from "@/components/SocialIcons";
+import { GithubSvg, LinkedinSvg, InstagramSvg, HtbSvg } from "@/components/SocialIcons";
 import { SOCIAL_LINKS } from "@/lib/utils";
 
 const contacts = [
@@ -33,11 +33,11 @@ const contacts = [
     desc: "Máquinas e CTF",
   },
   {
-    label: "Twitter / X",
-    value: "@Bielzin_088",
-    href: SOCIAL_LINKS.twitter,
-    icon: <XSvg size={16} />,
-    desc: "DM aberta",
+    label: "Instagram",
+    value: "@gabriell._marques",
+    href: SOCIAL_LINKS.instagram,
+    icon: <InstagramSvg size={16} />,
+    desc: "Perfil & Direct",
   },
 ];
 
