@@ -18,6 +18,20 @@ export const metadata: Metadata = {
     description: "Estudante de Sistemas de Informação, desenvolvedor back-end e entusiasta de segurança ofensiva.",
     type: "website",
     locale: "pt_BR",
+    images: [
+      {
+        url: "/img/avatar.png",
+        width: 400,
+        height: 400,
+        alt: "Edimar Gabriel",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary",
+    title: "Edimar Gabriel — Security & Dev",
+    description: "Estudante de Sistemas de Informação, desenvolvedor back-end e entusiasta de segurança ofensiva.",
+    images: ["/img/avatar.png"],
   },
 };
 
