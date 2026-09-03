@@ -29,6 +29,11 @@ export const metadata: Metadata = {
       },
     ],
   },
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
   twitter: {
     card: "summary",
     title: "Edimar Gabriel — Security & Dev",
