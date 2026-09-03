@@ -34,7 +34,7 @@ const contacts = [
   },
   {
     label: "Twitter / X",
-    value: "@edimargabriel",
+    value: "@Bielzin_088",
     href: SOCIAL_LINKS.twitter,
     icon: <XSvg size={16} />,
     desc: "DM aberta",
