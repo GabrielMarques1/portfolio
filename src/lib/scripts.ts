@@ -154,7 +154,15 @@ const SCRIPTS_METADATA: Omit<ScriptDoc, "code">[] = [
 ];
 
 export function getAllScripts(): ScriptDoc[] {
-  return SCRIPTS_METADATA.map((meta) => {
+  if (!fs.existsSync(SCRIPTS_DIR)) {
+    return [];
+  }
+
+  const registeredFiles = new Set(SCRIPTS_METADATA.map((m) => m.filename));
+  const filesOnDisk = fs.readdirSync(SCRIPTS_DIR).filter((f) => f.endsWith(".py") || f.endsWith(".sh"));
+
+  // Scripts conhecidos
+  const known = SCRIPTS_METADATA.map((meta) => {
     const filePath = path.join(SCRIPTS_DIR, meta.filename);
     let code = "# Código fonte não disponível no momento.";
     if (fs.existsSync(filePath)) {
@@ -165,6 +173,36 @@ export function getAllScripts(): ScriptDoc[] {
       code,
     };
   });
+
+  // Novos scripts dinâmicos que forem adicionados futuramente
+  const dynamicScripts: ScriptDoc[] = filesOnDisk
+    .filter((f) => !registeredFiles.has(f))
+    .map((filename) => {
+      const filePath = path.join(SCRIPTS_DIR, filename);
+      const code = fs.readFileSync(filePath, "utf-8");
+      const isPython = filename.endsWith(".py");
+      const cleanName = filename.replace(/\.(py|sh)$/, "").replace(/[_-]+/g, " ");
+
+      return {
+        slug: filename.replace(/\./g, "-").toLowerCase(),
+        filename,
+        name: `${filename} — Offensive Tool`,
+        language: isPython ? "python" as const : "bash" as const,
+        category: "Offensive Tools" as const,
+        tag: isPython ? "python" : "bash",
+        summary: `Ferramenta de automação ofensiva desenvolvida em ${isPython ? "Python" : "Shell Script"}.`,
+        features: [
+          "Script adicionado dinamicamente ao arsenal",
+          "Execução automatizada em ambientes CTF e pentest",
+          "Código fonte integral disponível para inspeção"
+        ],
+        usage: isPython ? `python3 ${filename}` : `./${filename}`,
+        githubUrl: `https://github.com/GabrielMarques1/Scripts/blob/main/${filename}`,
+        code,
+      };
+    });
+
+  return [...known, ...dynamicScripts];
 }
 
 export function getScriptBySlug(slug: string): ScriptDoc | null {
