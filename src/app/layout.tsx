@@ -10,6 +10,7 @@ const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://gabrielsec.live"),
   title: "Edimar Gabriel — Security & Dev",
   description: "Estudante de Sistemas de Informação, desenvolvedor back-end e entusiasta de segurança ofensiva. CTF, pentest, writeups e projetos técnicos.",
   keywords: ["pentest", "CTF", "segurança ofensiva", "web hacking", "OWASP", "HackTheBox", "writeup", "Edimar Gabriel"],
