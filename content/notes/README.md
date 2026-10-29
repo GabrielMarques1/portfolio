@@ -34,7 +34,7 @@
 ├── 📄 Linux Privilege Escalation.md                 → Guia exaustivo de escalação de privilégios em GNU/Linux
 ├── 📄 Kali linux & Arch e minhas anotações basicas.md→ Comandos de terminal, dotfiles, redes e pivoting
 ├── 📄 REDES -.md                                    → Fundamentos de redes (TCP/IP, OSI, DNS, HTTP/S, ARP)
-├── 📄 plano de Estudos.md                           → Trilha de capacitação técnica (HTB, Hacking Club, PortSwigger)
+├── 📄 plano de Estudos.md                           → Trilha de capacitação técnica (HTB/CWES, PortSwigger)
 └── 🗺️ REDES - GERAL.canvas                         → Diagrama conceitual visual de topologia de redes
 ```
 
@@ -144,10 +144,9 @@ Fundamentos de redes aplicados a testes de intrusão e análise de tráfego:
 ---
 
 ### 📅 [Plano de Estudos](./plano%20de%20Estudos.md)
-Trilha técnica contínua estruturada:
+Trilha técnica contínua estruturada em duas plataformas:
 
 - **HackTheBox & Academy:** Foco na certificação CWES (*Certified Web Exploitation Specialist*) e resolução de máquinas da comunidade.
-- **Hacking Club:** Resoluções práticas de CTFs e explorações com cenários realistas de infraestrutura e aplicações corporativas.
 - **PortSwigger Web Security Academy:** Laboratórios cirúrgicos para aprofundamento das falhas reportadas no OWASP Top 10.
 
 ---
@@ -171,7 +170,7 @@ Trilha técnica contínua estruturada:
 
 ## 🏆 Writeups Documentados
 
-Writeups completos com cadeia de ataque, PoCs e mitigação disponíveis no repositório irmão [GabrielMarques1/WriteUps](https://github.com/GabrielMarques1/WriteUps) e no site oficial:
+Writeups completos com cadeia de ataque, PoCs e mitigação disponíveis no repositório irmão [GabrielMarques1/WriteUps](https://github.com/GabrielMarques1/WriteUps) e no site oficial. As máquinas abaixo foram resolvidas na plataforma Hacking Club durante o período de acesso (registro histórico):
 
 | Máquina / Alvo | Plataforma | Dificuldade | Vetores Principais | Status |
 |----------------|------------|:-----------:|---------------------|:------:|
@@ -208,7 +207,6 @@ git clone https://github.com/GabrielMarques1/Cyber-security.git
 - 📜 [PTES — Penetration Testing Execution Standard](http://www.pentest-standard.org/)
 - 🎓 [PortSwigger Web Security Academy](https://portswigger.net/web-security)
 - 🎓 [Hack The Box Academy](https://academy.hackthebox.com/)
-- 🎓 [Hacking Club](https://app.hackingclub.com/)
 
 ---
 
