@@ -1,6 +1,6 @@
-# Plano de Estudos — CWES + Hacking Club + PortSwigger
+# Plano de Estudos — CWES + PortSwigger
 
-> **Objetivo:** Avançar com consistência na trilha **CWES**, manter evolução contínua no **Hacking Club avançado** (assistindo às aulas, replicando laboratórios e explorando máquinas completas), complementar com os labs cirúrgicos da **PortSwigger Academy** e focar totalmente nas certificações antes de entrar em uma fase separada de programação. As três plataformas se complementam com precisão cirúrgica: a CWES traz a trilha e o rigor formal de certificação, o HC traz aulas conceituais profundas em português e prática em cenários reais, e a PortSwigger traz fixação isolada por vulnerabilidade com teoria web de referência.
+> **Objetivo:** Avançar com consistência na trilha **CWES**, complementar com os labs cirúrgicos da **PortSwigger Academy** e focar totalmente nas certificações antes de entrar em uma fase separada de programação. Acesso ao **Hacking Club encerrado** — o plano abaixo trabalha só com as duas plataformas restantes. As duas se complementam: a CWES traz a trilha e o rigor formal de certificação, e a PortSwigger traz fixação isolada por vulnerabilidade com teoria web de referência.
 
 ---
 
@@ -8,13 +8,12 @@
 
 | Item | Detalhe |
 |---|---|
-| Horário na Semana (Tarde) | 14:00–18:00 (Bloco nobre: energia alta para CWES, aulas e máquinas HC) |
+| Horário na Semana (Tarde) | 14:00–18:00 (Bloco nobre: energia alta para CWES e labs) |
 | Pausa / Descompressão | 18:00–19:30 (Jantar, descanso físico e reset cognitivo) |
-| Horário na Semana (Noite) | 19:30–22:00 (Bloco de fixação: PortSwigger, labs da aula, writeups e Obsidian) |
+| Horário na Semana (Noite) | 19:30–22:00 (Bloco de fixação: PortSwigger, labs da CWES, writeups e Obsidian) |
 | Horário no Fim de Semana | 2 horas pontuais no Sábado (Revisão, destravar pendências e planejamento) |
 | Domingo | **OFF Total** (Descanso indispensável para evitar saturação e manter o ritmo) |
 | CWES (HTB Academy) | Trilha de certificação — módulos estruturados e labs práticos |
-| Hacking Club | Nível avançado — aulas teóricas/técnicas, replicação em labs e máquinas |
 | PortSwigger Academy | Labs cirúrgicos por vulnerabilidade — teoria web de referência |
 | Python | Adiado para depois das certificações |
 
@@ -23,11 +22,10 @@
 ## Prioridades
 
 1. 🔴 **CWES** — trilha de certificação, conteúdo estruturado e teoria sólida
-2. 🔴 **Hacking Club** — aulas avançadas, replicação de técnicas em lab e máquinas reais
-3. 🟠 **PortSwigger Academy** — labs cirúrgicos por vulnerabilidade, teoria web de referência
-4. 🟡 **Obsidian / Revisão** — notas em `[[Essential Web Hacking.md]]`, `[[Payloads - Web Hacking.md]]`, writeups e templates
+2. 🟠 **PortSwigger Academy** — labs cirúrgicos por vulnerabilidade, teoria web de referência
+3. 🟡 **Obsidian / Revisão** — notas em `[[Essential Web Hacking.md]]`, `[[Payloads - Web Hacking.md]]`, writeups e templates
 
-> ⚠️ CWES e HC têm **peso igual** como base. A PortSwigger **complementa ambas** — ela aprofunda a vulnerabilidade específica que você está estudando na semana.
+> ⚠️ A CWES é a **base**. A PortSwigger **complementa** — ela aprofunda a vulnerabilidade específica que você está estudando na semana.
 
 ---
 
@@ -35,9 +33,8 @@
 
 | Área | % do tempo | Carga Semanal Estimada (~32h) |
 |---|---|---|
-| CWES (HTB Academy) | 35% | ~11h |
-| Hacking Club (Aulas + Máquinas) | 35% | ~11h |
-| PortSwigger Academy | 20% | ~6h30 |
+| CWES (HTB Academy) | 60% | ~19h |
+| PortSwigger Academy | 30% | ~9h30 |
 | Revisão + Obsidian | 10% | ~3h30 |
 
 ---
@@ -47,9 +44,9 @@
 | Dia | Tarde (14:00–18:00) | Noite (19:30–22:00) | Meta do Dia |
 |---|---|---|---|
 | **Segunda** | **CWES:** Módulo e teoria profunda da trilha | **PortSwigger:** Labs práticos do mesmo tema + Obsidian | Teoria estruturada + lab focado |
-| **Terça** | **Hacking Club:** Aulas do módulo avançado + replicação guiada em lab | **HC:** Finalização dos labs da aula + anotações conceituais | Absorção e replicação de técnica nova |
+| **Terça** | **CWES:** Continuação do módulo + labs guiados | **PortSwigger:** Fixação do tema + anotações conceituais | Absorção e replicação de técnica nova |
 | **Quarta** | **CWES:** Exercícios avaliados e labs práticos | **PortSwigger:** Labs avançados/bypasses + Obsidian | Fixação cirúrgica e rigor técnico |
-| **Quinta** | **Hacking Club:** Exploração de máquina completa ou desafio do tema | **HC:** Escalada de privilégios / flag + Writeup no Obsidian | Aplicação autônoma ponta a ponta |
+| **Quinta** | **CWES (Aplicação prática):** Lab/máquina completa do tema da semana | **Fechamento:** Pós-exploração, flags + Writeup no Obsidian | Aplicação autônoma ponta a ponta |
 | **Sexta** | **PortSwigger:** Maratona de labs práticos do tema da semana | **Revisão e Vault:** Fechamento de notas, links `[[...]]` e pendências | Síntese semanal e organização limpa |
 | **Sábado (2h)** | **Bloco Cirúrgico (ex: 10:00–12:00):** Destravar 1 pendência da semana + preencher Revisão Semanal | Livre | Fechar a semana sem desgaste |
 | **Domingo** | **OFF Total** | **OFF Total** | Reset mental para a próxima semana |
@@ -74,31 +71,31 @@
 
 ---
 
-### Terça — Hacking Club (Aulas + Replicação em Lab)
+### Terça — CWES (Aprofundamento + Replicação)
 
 | Horário | Atividade |
 |---|---|
-| 14:00–14:15 | Revisar o objetivo do módulo atual da HC |
-| 14:15–16:00 | **HC (Aulas):** Assistir às aulas do módulo avançado anotando pontos-chave |
+| 14:00–14:15 | Revisar o objetivo do módulo atual da CWES |
+| 14:15–16:00 | **CWES (Teoria):** Avançar no módulo, anotando pontos-chave e arquitetura da falha |
 | 16:00–16:20 | Pausa / café |
-| 16:20–18:00 | **HC (Replicação):** Reproduzir no lab da aula exatamente o que o professor demonstrou |
+| 16:20–18:00 | **CWES (Lab):** Reproduzir no lab exatamente a técnica estudada na teoria |
 | *18:00–19:30* | *Intervalo de descompressão* |
-| 19:30–21:00 | **HC (Fixação):** Praticar variações do comando/exploit ensinado na aula |
+| 19:30–21:00 | **PortSwigger (Fixação):** Praticar variações da técnica em labs cirúrgicos |
 | 21:00–22:00 | **Obsidian:** Registrar comandos novos, ferramentas e conceitos em notas de cheatsheet/teoria |
 
 ---
 
-### Quinta — Hacking Club (Aplicação Prática em Máquina)
+### Quinta — CWES (Aplicação Prática em Lab/Máquina)
 
 | Horário | Atividade |
 |---|---|
-| 14:00–14:15 | Selecionar a máquina alvo da HC (preferencialmente alinhada com as aulas da semana) |
-| 14:15–16:00 | **HC (Máquina):** Reconhecimento ativo, enumeração de serviços e exploração do Foothold |
+| 14:00–14:15 | Selecionar o lab/máquina alvo da CWES (preferencialmente alinhado com o tema da semana) |
+| 14:15–16:00 | **CWES (Máquina):** Reconhecimento ativo, enumeração de serviços e exploração do Foothold |
 | 16:00–16:20 | Pausa / café |
-| 16:20–18:00 | **HC (Máquina):** Enumeração interna para escalada de privilégios (`root`/`SYSTEM`) |
+| 16:20–18:00 | **CWES (Máquina):** Enumeração interna para escalada de privilégios (`root`/`SYSTEM`) |
 | *18:00–19:30* | *Intervalo de descompressão* |
-| 19:30–21:00 | **HC (Fechamento):** Pós-exploração, captura de flags e revalidação do vetor de ataque |
-| 21:00–22:00 | **Obsidian:** Writeup técnico completo da máquina, destacando falhas, comandos e payloads |
+| 19:30–21:00 | **CWES (Fechamento):** Pós-exploração, captura de flags e revalidação do vetor de ataque |
+| 21:00–22:00 | **Obsidian:** Writeup técnico completo, destacando falhas, comandos e payloads |
 
 ---
 
@@ -133,16 +130,15 @@
 
 ---
 
-## Sinergia CWES ↔ Hacking Club ↔ PortSwigger
+## Sinergia CWES ↔ PortSwigger
 
-> As três plataformas se complementam diretamente. O fluxo ideal é: **CWES ensina a base metódica $\leftrightarrow$ HC aprofunda em aula e aplica em cenário real $\leftrightarrow$ PortSwigger treina o olho cirúrgico para a vulnerabilidade isolada**.
+> As duas plataformas se complementam diretamente. O fluxo ideal é: **CWES ensina a base metódica $\leftrightarrow$ PortSwigger treina o olho cirúrgico para a vulnerabilidade isolada**.
 
 | Papel | Plataforma | Exemplo |
 |---|---|---|
 | **Trilha e Rigor Metódico** | CWES (HTB Academy) | Módulo estruturado de SQLi com leitura aprofundada |
-| **Aula Conceitual + Lab Guiado** | Hacking Club (Aulas) | Aula explicando a arquitetura da falha, truques de bypass e prática em lab |
 | **Lab Cirúrgico Isolado** | PortSwigger Academy | Laboratórios de SQLi Blind/UNION com filtros e WAF bypass |
-| **Prática Real Autônoma** | Hacking Club (Máquinas) | Máquina corporativa completa onde SQLi é a porta de entrada para o Foothold |
+| **Prática Aplicada** | CWES (Labs/Máquinas) | Lab completo onde SQLi é a porta de entrada para o Foothold |
 
 **Fluxo da semana:**
 ```
@@ -150,11 +146,11 @@ Segunda (CWES) → Estuda o módulo teórico de SQLi
       ↓
 Segunda à Noite (PortSwigger) → Executa 2-3 labs cirúrgicos de SQLi
       ↓
-Terça (HC - Aulas) → Assiste aula avançada do tema + replica os passos em lab guiado
+Terça (CWES) → Aprofunda o módulo + replica a técnica em lab
       ↓
 Quarta (CWES) → Executa laboratórios avançados e exercícios avaliados do módulo
       ↓
-Quinta (HC - Máquina) → Pega uma máquina com esse vetor, faz Foothold, PrivEsc e Writeup
+Quinta (CWES - Prática) → Lab/máquina com esse vetor, faz Foothold, PrivEsc e Writeup
       ↓
 Obsidian → Conecta tudo no vault com [[Essential Web Hacking.md]] e [[Payloads - Web Hacking.md]]
 ```
@@ -168,8 +164,8 @@ Obsidian → Conecta tudo no vault com [[Essential Web Hacking.md]] e [[Payloads
 - Em dias de cansaço pontual, reduza a noite e preserve a tarde (o bloco nobre)
 - Priorizar **constância** e retenção sobre velocidade cega
 - Toda dúvida que não puder ser resolvida em 30 minutos vira nota para o sábado
-- No segundo bloco de Seg/Qua, **sempre** fazer o lab do PortSwigger correspondente ao tema da CWES
-- Na Terça-feira, **sempre** replicar no lab da HC o que o professor executou na aula
+- Em Seg/Qua, **sempre** fazer o lab do PortSwigger correspondente ao tema da CWES
+- Na Terça-feira, **sempre** replicar no lab o que foi estudado na teoria do módulo
 
 ---
 
@@ -179,7 +175,7 @@ Obsidian → Conecta tudo no vault com [[Essential Web Hacking.md]] e [[Payloads
 
 - [ ] Abrir a meta do dia no Obsidian
 - [ ] Revisar a nota da sessão anterior
-- [ ] Separar links, aulas ou módulo da plataforma
+- [ ] Separar links ou módulo da plataforma
 - [ ] Definir 1 objetivo claro e inegociável para a sessão
 
 ### Ao terminar (Fim da noite — 22h)
@@ -200,7 +196,6 @@ Obsidian → Conecta tudo no vault com [[Essential Web Hacking.md]] e [[Payloads
 
 ## Plataforma
 - [ ] CWES
-- [ ] Hacking Club (Aulas / Lab / Máquina)
 - [ ] PortSwigger
 
 ## Objetivo do dia
@@ -228,11 +223,10 @@ Obsidian → Conecta tudo no vault com [[Essential Web Hacking.md]] e [[Payloads
 
 ## O que avançou
 - CWES:
-- Hacking Club (Aulas e Máquinas):
 - PortSwigger:
 
 ## Sinergia da semana
-- Assunto que conectou teoria, aula e máquina:
+- Assunto que conectou teoria e lab:
 
 ## Onde travou
 -
@@ -242,6 +236,5 @@ Obsidian → Conecta tudo no vault com [[Essential Web Hacking.md]] e [[Payloads
 
 ## Foco da próxima semana
 - CWES:
-- Hacking Club:
 - PortSwigger:
 ```
